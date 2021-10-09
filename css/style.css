@@ -1,0 +1,218 @@
+ * {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+   }
+        
+.overflow {
+    overflow: hidden;
+          }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: #e42267
+}
+
+/****loading****/
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999;
+    background-color: #428f99;
+   
+}
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 250px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+/* ***************** */
+
+/********** navbar  ********/
+
+.icon
+{
+    font-size: 45px;
+}
+
+.bg
+{
+    background-color: rgba(33,150,243,.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-virus
+{
+    position: absolute;
+    top: -150px;
+    left: -100px;
+}
+
+.specialColor
+{
+    color: #e42267;
+}
+.btnread
+{
+    box-shadow: 0px 7px 20px 0px rgb(38 121 253 / 20%);
+    border-radius: 10px;
+    background-color: rgb(42, 42, 148);
+    color: white;
+    transition: 1s;
+}
+.btnread:hover
+{
+    background-color: #e42267;
+    color: white;
+    transition: 1s;
+}
+/*************************/
+.bgGroup
+{
+background-color:#e42267 ;
+}
+/*************/
+.imgVirusBink
+{
+       position: absolute;
+    left: -150px;
+}
+.bgSVG
+{
+    background-image: url(../images/Group_4073-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+/**********************/
+.bgCorona
+{
+    background-image: url(../images/CORONA_WIDE_PINK.jpg);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.singer1 , .singer2  , .singer3  , .singer4
+{
+    background-color:#0042a8;
+    filter: blur();
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+}
+#singer1 , #singer2  , #singer3  , #singer4
+{
+    background-color:#1c62cc;
+    padding: 3px;
+}
+
+.bgend
+{
+        background-color: rgba(33,150,243,.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***************************************/
+
+ @media screen and (max-width:575px)
+ {
+     .hid
+     {
+         width: 0%;
+     }
+}
+     @media screen  and (min-width:576px) and (max-width:767px)
+  {
+   .hid
+     {
+         width: 0%;
+     }
+ }
+
+@keyframes move {
+    0% {
+        left: 0;
+        transform: rotateY(180deg);
+    }
+    50% {
+        left: 900px;
+        transform: rotateY(180deg);
+    }
+    51% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        left: 0px;
+        ;
+        transform: rotateY(360deg);
+    }
+}
+
+
